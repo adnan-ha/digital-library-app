@@ -1,0 +1,56 @@
+.errorMsg,
+.successMsg {
+    top: 20px;
+    z-index: 1050;
+    min-width: 300px;
+    max-width: 500px;
+    display: none;
+}
+
+.navbar {
+    height: 55px;
+}
+
+.nav-item.active {
+    background-color: rgb(197, 197, 197);
+    border-radius: 5px;
+}
+
+.nav-item.active a {
+    color: #222 !important;
+    font-weight: 500;
+}
+
+.nav-item a {
+    transition: 0.3s;
+}
+
+.nav-item:hover a {
+    word-spacing: 5px;
+}
+
+textarea {
+    height: 150px !important;
+}
+
+.book_cover {
+    width: 200px;
+}
+
+.table_book_cover {
+    width: 50px;
+}
+
+.book_description {
+    font-weight: 500;
+    text-align: justify;
+}
+
+.book_info_container {
+    text-wrap-style: balance;
+}
+
+.book_info_container,
+.book_link {
+    font-size: 14px;
+}
